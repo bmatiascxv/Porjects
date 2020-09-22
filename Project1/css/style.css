@@ -36,20 +36,17 @@ background-attachment: fixed;
 
 .box1 {
 background-image:url('../img/img1.jpg');
-color: rgb(0, 0, 0);
-min-height: 100%;
+color: rgb(255, 255, 255);
 }
 
 .box2 {
 background-color: blue;
-color: rgb(0, 0, 0);
-min-height: 400px;
+color: rgb(255, 255, 255);
 }
 
 .box3 {
 background-color: darkblue;
 color: rgb(255, 255, 255);
-min-height: 400px;
 }
 
 .ptxt {
