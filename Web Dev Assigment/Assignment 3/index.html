@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!--
+Name: Benjamin Matias
+Student #: 991591184
+Campus: Trafalgar
+-->
+<html>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<title>Benjamin Matias | 991591184</title>
+<body>
+</header>
+<!--Background-->
+<div class = "background"></div>
+<!--Background End-->
+
+<!--Header Section-->
+<header>
+  <h1>School Information Form</h1>
+</header>
+<!--Header Section End-->
+<br>
+<form method = "get" action ="submit_page.html">
+<!--Grid Container-->
+<div class="grid-container">
+<!--Section 1-->
+  <div class = "box1">
+    <table>
+      <tr>
+        <td>First Name: </td>
+        <td><input id = "box-size" type="text" name="fName" placeholder="First Name" required></td>
+      </tr>
+      <tr>
+        <td>Last Name: </td>
+        <td><input id = "box-size" type="text" name="1Name" placeholder="Last Name" required></td>
+      </tr>
+      <tr>
+        <td>Student #: </td>
+        <td><input id = "box-size" type="number" name="1Name" placeholder="Student #" required></td>
+      </tr>
+      <tr>
+        <td>Sheridan Email: </td>
+        <td><input id = "box-size" type="email" name="sheridan email" 
+          placeholder="username@sheridancollege.ca" required></td>
+      </tr>
+    </table>
+  </div>
+<!--Section 1 End-->
+  <!--Section 2-->
+  <div class = "box2">
+
+    <table>
+      <tr>
+        <td>Start date:</td>
+        <td><input type="date" id="start" name="School start"
+          min="1998-01-01" max="2025-12-31"></td>
+      </tr>
+      <tr>
+        <td>Years of Post-Secondary Experience:</td>
+        <td><input type="number" id="year" name="number of years"
+          value="0"
+          min="0" max="10"></td>
+      </tr>
+      <tr>
+        <td>Choose your campus:</td>
+        <td> 
+          <select id="campus" value="Trafalgar">
+            <option value="Trafalgar">Trafalgar</option>
+            <option value="Brampton">Brampton</option>
+            <option value="Mississauga">Mississauga</option>
+         </select>
+        </td>
+      </tr>
+    </table> 
+  </div>
+  <!--Section 2 End-->
+  <!--Section 3-->
+  <div class = "box3">
+		<label for="money">Amount Recieved: $</label>
+    <input type="number" id="money" name="amount of money" placeholder="$"><br><br>	
+      <fieldset>
+      <legend align = "left">Financial Information</legend>
+      <table>
+        <tr>
+          <td id = "pad"><input type="checkbox" name="CH1" value="SP">Scholarship</td>
+          <td id = "pad"><input type="checkbox" name="CH2" value="RP">RESP</td>
+          <td id = "pad"><input type="checkbox" name="CH3" value="BY">Bursary</td>
+          <td id = "pad"><input type="checkbox" name="CH4" value="OSAP">OSAP</td>
+        </tr>
+      </table>
+			</fieldset>
+  		
+  </div>
+  <!--Section 3 End-->
+  <!--Footer Section-->
+  <div class = "footer">
+    <fieldset>
+    <legend>Comment</legend>
+    <textarea rows="7" cols="64"></textarea>
+  </fieldset>
+  			<br><br>			
+  <input type="submit" value="Submit" name="b1">
+  <input type="reset" value="Reset" name="b2">
+  </div>
+<!--Footer End-->
+</div>
+<!--Grid Container End-->
+</body>
+</html>

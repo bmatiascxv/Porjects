@@ -1,0 +1,106 @@
+/*
+Name: Benjamin Matias
+Student #: 991591184
+Campus: Trafalgar
+*/
+body {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  max-width: auto;
+}
+/* Grid Container */
+.grid-container {
+  display: grid;
+  grid-template-areas: 
+  '. header .'
+  'box1 box2 box3'
+  '. footer .';
+  grid-gap: 10px;
+  z-index: 2;
+  font-size: 1.20em;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.7);
+  z-index: 2;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+/* Table Properties */
+td {
+  padding: 3px;
+}
+
+/* Section Containers */
+.box1 {
+  grid-area: box1;
+  padding-top: 1em;
+  justify-self: center;
+  z-index: 2;
+}
+
+.box2 {
+  grid-area: box2;
+  padding-top: 1em;
+  justify-self: center;
+  z-index: 2;
+}
+
+.box3 {
+  grid-area: box3;
+  padding-top: 1em;
+  justify-self: center;
+  z-index: 2;
+}
+
+.footer {
+  justify-self: center;
+  grid-area: footer;
+  padding-bottom: 1em;
+  z-index: 2;
+}
+
+header{
+text-align: center;
+box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+padding: 1px;
+z-index: 2;
+background-color: rgba(255, 255, 255, 0.2)
+}
+
+/* Input Properties and Design */
+#box-size {
+width: 200px;
+}
+
+#pad {
+  padding: 0px 10px;
+  text-align: center;
+}
+
+fieldset {
+  width: 24vw;
+}
+
+input, select {
+  padding: 10px;
+}
+/* Background of Page */
+.background{
+  background: url(../images/img1.jpg);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* Page changes when half screen */
+@media screen and (max-width: 100em){
+  .grid-container {
+    font-size: 1em;
+    grid-template-areas: 
+  'header header'
+  'box1 box2 '
+  'box3 footer';
+  }
+}
