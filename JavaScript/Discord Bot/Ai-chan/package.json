@@ -1,32 +1,32 @@
 {
-  "name": "Ai-chan",
-  "version": "1.0.0",
-  "description": "test bot",
-  "main": "AiChan.js",
+  "author": [
+    {
+      "name": "SKADIREE",
+      "link": ""
+    },
+    {
+      "name": "BENJI",
+      "link": ""
+    },
+    {
+      "name": "SUGAMINI",
+      "link": ""
+    }
+  ],
   "dependencies": {
     "discord.js": "^12.3.1",
     "dotenv": "^3.2.0"
   },
+  "description": "test bot",
   "devDependencies": {},
+  "keywords": [],
+  "license": "ISC",
+  "main": "AiChan.js",
+  "Name": "Ai-chan",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node .",
     "lint": "eslint ."
   },
-  "keywords": [],
-  "author": [
-      {
-          "name": "SKADIREE",
-          "link": ""
-      },
-      {
-          "name": "BENJI",
-          "link": ""
-      },
-      {
-          "name": "SUGAMINI",
-          "link": ""
-      }
-  ],
-  "license": "ISC"
+  "version": "1.0.0"
 }
