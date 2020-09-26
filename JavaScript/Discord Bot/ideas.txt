@@ -1,2 +1,3 @@
 Brainstorm Ideas on What the Bot should do
 - Commmand would be something similar to [!discordbot 'social media platform' 'username'] and it should pull the latest post
+- The command would either ask them if they want to open it up on a web browser or inside the discord
