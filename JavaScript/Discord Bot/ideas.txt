@@ -1,0 +1,2 @@
+Brainstorm Ideas on What the Bot should do
+- commmand would be something similar to [!discordbot 'social media platform' 'username'] and it should pull the latest post
