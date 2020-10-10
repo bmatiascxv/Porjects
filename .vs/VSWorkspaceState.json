@@ -1,9 +1,11 @@
 {
   "ExpandedNodes": [
     "",
+    "\\Java Projects",
     "\\JavaScript",
-    "\\JavaScript\\Discord Bot"
+    "\\JavaScript\\Discord Bot",
+    "\\JavaScript\\Discord Bot\\Ai-chan"
   ],
-  "SelectedNode": "\\JavaScript\\Discord Bot\\README.md",
+  "SelectedNode": "\\JavaScript\\Discord Bot\\Ai-chan\\config.json",
   "PreviewInSolutionExplorer": false
 }
